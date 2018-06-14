@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name = "regression"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="test1package.Class3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+or 
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <groups>
+  <run>
+  <include name = "snaity"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="test1package.Class3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+
